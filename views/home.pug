@@ -1,0 +1,51 @@
+extends base.pug
+
+block scripts
+    script(src='/static/index.js')
+
+block style
+    style
+      include ../static/style.css
+
+block content
+    
+
+    section#introsection
+        div Welcome to Deepesh's Dance Academy
+        div Eat Sleep Dance Repeat
+
+    section#missionsection
+        h3 Our Mission
+        div.card
+            h4 Dance Perfection
+            div.card-box
+                div.card-img
+                    img(src="/static/1.png")
+                div.card-content
+                    p This is the best dance academy of the universe
+
+        div.card
+            h4 Dance the way you like
+            div.card-box
+                div.card-img
+                    img(src="/static/2.png")
+                div.card-content
+                    p This is the best dance academy of the universe
+
+        div.card
+            h4 Expert Teaching
+            div.card-box
+                div.card-img
+                    img(src="/static/3.png")
+
+                div.card-content
+                    p This is the best dance academy of the universe
+
+    section#sponsorsection
+        h3 Our Sponsors
+        div#sponsors
+            img(src=  "/static/Flipkart-logo3.png", alt= "Sponsor Image", class= "sp-img")
+            img(src=  "/static/apple-logo2.png", alt= "Sponsor Image", class= "sp-img")
+            img(src=  "/static/Zomato-logo1.png", alt= "Sponsor Image", class= "sp-img")
+    
+    

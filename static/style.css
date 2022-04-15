@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&family=Ceviche+One&family=Poppins:wght@600&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+#logo {
+  display: flex;
+  align-items: center;
+  padding: 0px 10px;
+  margin-left: 31px;
+  margin-right: 4%;
+}
+
+#logo img {
+  height: 39px;
+  filter: invert(1);
+}
+
+#navbar {
+  background-color: black;
+  padding: 13px 10px;
+  font-family: "Baloo Bhai 2";
+}
+#navbar ul {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+#navbar li {
+  list-style: none;
+}
+#navbar li a {
+  font-size: 15px;
+  color: white;
+  padding: 4px 10px;
+  text-decoration: none;
+  transition: all ease-in-out 0.5s;
+}
+#navbar li a:hover {
+  color: rgb(255 255 135);
+}
+
+#introsection {
+  display: flex;
+  color: white;
+  flex-direction: column;
+  font-size: 35px;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  height: 548px;
+  background: url(../static/intro.jpg) no-repeat center center / cover;
+}
+
+#missionsection {
+  height: 320px;
+  margin: auto;
+  display: block;
+  width: 75%;
+}
+
+#missionsection h3 {
+  display: flex;
+  font-size: 25px;
+  flex-direction: row;
+  padding-top: 25px;
+  justify-content: center;
+  font-family: "Baloo Bhai 2";
+}
+
+.card {
+  display: inline-block;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 29%;
+  margin: 28px 22px;
+  height: 220px;
+}
+
+.card h4 {
+  font-family: "Baloo Bhai 2";
+  font-size: 20px;
+  text-align: center;
+  margin-top: 11px;
+}
+.card-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.card-img {
+  height: 60px;
+  padding: 0px 7px;
+}
+.card-img img {
+  height: inherit;
+}
+.card-content {
+  padding: 0px 10px;
+  font-family: "Poppins", sans-serif;
+}
+.card-content p {
+  font-size: 17px;
+  font-family: "Poppins", sans-serif;
+}
+
+#sponsorsection {
+  height: 300px;
+  background-color: #ffff0078;
+}
+
+#sponsorsection h3 {
+  margin-top: 30px;
+  display: flex;
+  font-size: 25px;
+  flex-direction: row;
+  padding-top: 4px;
+  justify-content: center;
+  font-family: "Baloo Bhai 2";
+}
+#sponsors {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  height: 150px;
+}
+
+.sp-img {
+  height: 150px;
+  margin: 0px 60px;
+}
+
+#footer {
+  display: flex;
+  font-size: 13px;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  height: 50px;
+}
